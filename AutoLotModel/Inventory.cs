@@ -16,7 +16,7 @@ namespace AutoLotModel
         }
 
         [Key]
-        public int carId { get; set; }
+        public int CarId { get; set; }
 
         [StringLength(50)]
         public string Make { get; set; }
